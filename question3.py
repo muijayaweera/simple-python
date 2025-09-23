@@ -1,11 +1,11 @@
-text = input("Enter a string: ").lower()
+text = input("Enter a string value: ").lower()
 
 vowels = "aeiou"
 vowel_count = 0
 consonant_count = 0
 
 for char in text:
-    if char.isalpha():  # ignore spaces and special characters
+    if char.isalpha():  
         if char in vowels:
             vowel_count += 1
         else:

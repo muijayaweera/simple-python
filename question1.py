@@ -8,6 +8,6 @@ while temp > 0:
     temp //= 10
 
 if sum_of_cubes == num:
-    print(f"{num} is an Armstrong number.")
+    print(f"{num} is an Armstrong number")
 else:
-    print(f"{num} is not an Armstrong number.")
+    print(f"{num} is not an Armstrong number")
