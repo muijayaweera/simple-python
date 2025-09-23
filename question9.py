@@ -7,7 +7,6 @@ def matrix_sum(A, B):
         result.append(row)
     return result
 
-# Input two 3x3 matrices
 A = [[int(input(f"A[{i+1}][{j+1}]: ")) for j in range(3)] for i in range(3)]
 B = [[int(input(f"B[{i+1}][{j+1}]: ")) for j in range(3)] for i in range(3)]
 

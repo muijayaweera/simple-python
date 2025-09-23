@@ -1,9 +1,9 @@
 students = [
-    {"name": "Alice", "ID": 101, "marks": 85},
-    {"name": "Bob", "ID": 102, "marks": 78},
-    {"name": "Charlie", "ID": 103, "marks": 92},
-    {"name": "David", "ID": 104, "marks": 60},
-    {"name": "Eva", "ID": 105, "marks": 70}
+    {"name": "Chathuni", "ID": 111, "marks": 85},
+    {"name": "Senara", "ID": 121, "marks": 78},
+    {"name": "Ashini", "ID": 131, "marks": 92},
+    {"name": "Shyanne", "ID": 141, "marks": 60},
+    {"name": "Suzanne", "ID": 151, "marks": 70}
 ]
 
 def add_student():
@@ -26,7 +26,6 @@ def display_students():
     for student in sorted_list:
         print(student)
 
-# Menu
 while True:
     print("\n1. Add Student\n2. Search Student\n3. Display All\n4. Exit")
     choice = input("Choose an option: ")

@@ -14,8 +14,7 @@ def calculate_marks(marks_list):
     
     return highest, lowest, average, grade
 
-# Input marks of at least 5 students
-marks = list(map(int, input("Enter marks of 5 students separated by space: ").split()))
+marks = list(map(int, input("Enter marks of 5 students : ").split()))
 
 h, l, avg, g = calculate_marks(marks)
 print(f"Highest: {h}, Lowest: {l}, Average: {avg:.2f}, Grade: {g}")

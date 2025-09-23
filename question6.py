@@ -6,10 +6,8 @@ def is_prime(num):
             return False
     return True
 
-# Input list of numbers
 numbers = list(map(int, input("Enter numbers separated by space: ").split()))
 
-# Filter prime numbers
 primes = [n for n in numbers if is_prime(n)]
 
 print(f"Prime numbers: {primes}")
